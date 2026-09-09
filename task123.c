@@ -6,7 +6,8 @@
 int main(void){
     int n, min, max;
     int *arr;
-
+    
+    printf("Введите размер массива:\n");
     scanf("%d", &n);
     arr = malloc(n * sizeof(int));
     srand(time(NULL));

@@ -5,7 +5,7 @@
 int main(void) {
     srand(time(NULL));    
     int m, n, f_s;
-    printf("m n:\n");
+    printf("размер массива m n:\n");
     scanf("%d %d", &m, &n);
     int **matrix = malloc(m * sizeof(int*));
     
